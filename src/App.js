@@ -1,5 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
+import Course from './components/Course';
+import HelloReact from './components/HelloReact';
+import Navbar from './components/Navbar';
+import ReactInfo from './components/ReactInfo';
+import ThisIsJSX from './components/ThisIsJSX';
 
 
 
@@ -218,7 +223,18 @@ console.log(blueTriangle.getArea())
 
 function App() {
   return (
-    <></>
+    <>
+      <h2>Bài 1</h2>
+      <HelloReact />
+      <h2>Bài 2</h2>
+      <ReactInfo />
+      <h2>Bài 3</h2>
+      <Navbar />
+      <h2>Bài 4</h2>
+      <ThisIsJSX />
+      <h2>Bài 5</h2>
+      <Course />
+    </>
   );
 }
 

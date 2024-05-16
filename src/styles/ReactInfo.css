@@ -1,0 +1,57 @@
+.ReactInfo {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  margin-top: 20px;
+}
+
+.header {
+  /* padding: 10px; */
+  /* color: white; */
+}
+
+.title {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: blue;
+  font-family: sans-serif;
+}
+
+.subtitle {
+  font-size: 1em;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.subtitle2 {
+  font-size: 1em;
+  color: black;
+  margin-top: 1px;
+}
+
+
+.line-container {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .horizontal-line {
+    width: 20%;
+    height: 2px;
+    background-color: #004466;
+  }
+  
+  .vertical-tick {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    background-color: #004466;
+  }
